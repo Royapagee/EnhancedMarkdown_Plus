@@ -16,7 +16,7 @@ namespace TypechoPlugin\EnhancedMarkdownPlus;
  * - 自定义扩展：TOC [toc]、容器 :::type、图片尺寸 ![alt](url =WxH)
  *
  * @copyright 2026
- * @license BSD License
+ * @license Apache-2.0 license
  */
 class Parser extends \ParsedownExtra
 {
