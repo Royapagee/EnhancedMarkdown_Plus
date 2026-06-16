@@ -1,10 +1,9 @@
-# EnhancedMarkdownPlus v3.9.1
+# EnhancedMarkdown_Plus v3.9.1
 
-Typecho 增强版 Markdown 解析器与实时编辑器插件，基于 `EnhancedMarkdown` 已有的**Parsedown + ParsedownExtra** 解析引擎，并集成 **Editor.MD** ([Github](https://github.com/pandao/editor.md)) 的后台编辑器。
+Typecho 增强版 Markdown 解析器与实时编辑器插件，基于 **`EnhancedMarkdown`** 已有的**Parsedown + ParsedownExtra** 解析引擎，并集成 **Editor.MD** ([Github](https://github.com/pandao/editor.md)) 的后台编辑器。
 
 本插件不仅在**前台**提供了 Markdown 增强语法解析，还在**后台**替换了系统默认的编辑器，提供强大的分屏实时预览渲染支持，使编辑器的预览效果与前台展示高度一致。
 
----
 
 ## 核心特性
 
@@ -36,16 +35,14 @@ Typecho 增强版 Markdown 解析器与实时编辑器插件，基于 `EnhancedM
   - **代码高亮 (Prism.js)**：内置 300+ 语言着色，同样采用按需加载，零冗余开销。
   - **Mermaid 交互图表**：支持鼠标滚轮缩放、拖拽平移、一键还原视角。
 
----
 
 ## 插件安装
 
-1. 下载插件并解压，将 `EnhancedMarkdownPlus` 文件夹上传至 Typecho 的 `usr/plugins/` 目录。
+1. 下载本项目并解压，文件夹重命名为**EnhancedMarkdownPlus**，上传至 Typecho 的 `usr/plugins/` 目录。
 2. 登录 Typecho 后台 $\rightarrow$ 控制台 $\rightarrow$ 插件。
 3. 找到 **EnhancedMarkdownPlus** 并点击“启用”。
 4. 点击“设置”配置各项功能开关和 CDN 路径。
 
----
 
 ## 文件结构
 
@@ -67,7 +64,6 @@ EnhancedMarkdownPlus/
 └── README.md           # 本说明文档
 ```
 
----
 
 ## 配置项说明
 
@@ -80,7 +76,6 @@ EnhancedMarkdownPlus/
 - **代码语法高亮 (Prism.js)**：一键开启或关闭前端代码高亮渲染。
 - **启用 Emoji 表情**：启用后，编辑器内可快速输入 Emoji，前台文章页也将支持表情符号自动转换为图片。
 
----
 
 ## 更新日志
 
@@ -91,8 +86,7 @@ EnhancedMarkdownPlus/
 - **Emoji 支持**：加入 Emoji 配置项，支持前后端一致的表情符号转图片渲染。
 - **彻底防报错设计**：全部使用 `EnhancedMarkdownPlus` 命名空间及配置库引用，支持与旧版插件共存而不产生类重定义冲突。
 
----
 
 ## 许可证
 
-基于 **BSD License** 开源发布。
+基于 **Apache 2.0** 开源发布。
