@@ -6,7 +6,7 @@
  * @package EnhancedMarkdownPlus
  * @author 罗伊
  * @version 3.9.1
- * @link https://blog.qgdnmb.xyz/
+ * @link https://www.roysgensokyo.space/
  */
 
 namespace TypechoPlugin\EnhancedMarkdownPlus;
