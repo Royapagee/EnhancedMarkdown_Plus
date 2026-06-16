@@ -1,6 +1,6 @@
 # EnhancedMarkdown_Plus v3.9.1
 
-Typecho 增强版 Markdown 解析器与实时编辑器插件，基于 [**EnhancedMarkdown**](https://blog.qgdnmb.xyz/2026/05/26/Typecho-Markdown.html) 已有的**Parsedown + ParsedownExtra** 解析引擎，并集成 **Editor.MD** ([Github](https://github.com/pandao/editor.md)) 的后台编辑器。
+Typecho 增强版 Markdown 解析器与实时编辑器插件，基于 [**EnhancedMarkdown**](https://blog.qgdnmb.xyz/2026/05/26/Typecho-Markdown.html) 已有的**Parsedown + ParsedownExtra** 解析引擎，并集成  [**Editor.MD**](https://github.com/pandao/editor.md) 的后台对照式编辑器。
 
 本插件不仅在**前台**提供了 Markdown 增强语法解析，还在**后台**替换了系统默认的编辑器，提供强大的分屏实时预览渲染支持，使编辑器的预览效果与前台展示高度一致。
 
