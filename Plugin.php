@@ -1177,6 +1177,23 @@ STYLE;
                             console.error("KaTeX error:", e);
                         }
                     }
+                },
+                onchange: function() {
+                    if (this.state.loaded) {
+                        $('form[name=write_post],form[name=write_page]').trigger('datachange');
+                    }
+                },
+                onload: function() {
+                    this.addKeyMap({
+                        "Ctrl-S": function(cm) {
+                            Typecho.savePost();
+                            return false;
+                        },
+                        "Cmd-S": function(cm) {
+                            Typecho.savePost();
+                            return false;
+                        }
+                    });
                 }
             });
 
